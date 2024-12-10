@@ -49,3 +49,15 @@ The model achieved the following metrics on the validation set:
 - Recall: 93.0%
 - mAP@0.5: 94.1%
 - mAP@0.5:0.95: 59.4%
+
+
+## Enhanced Detection with `detect_enhanced.py`
+
+The `detect_enhanced.py` script expands upon the standard YOLOv5 object detection capabilities by introducing advanced features specifically tailored for the Bocco Ball game. These enhancements enable deeper insights into object interactions and spatial dynamics, making the detection system more robust and analytical.
+
+### Key Features:
+- **Distance Calculation**: Computes the Euclidean distance between detected objects, particularly focusing on the proximity of colored balls to the white ball. This feature uses the centroids of the bounding boxes for precise distance measurement.
+- **Object Ranking**: Ranks the detected objects based on their calculated distances, providing an ordered list of balls relative to their proximity to the white ball. This ranking aids in game analysis and strategy development.
+- **Enhanced Visualization**: Includes improved visualization options, such as adjustable bounding box line thickness and annotated distance values directly on output images, offering clear and interpretable results.
+
+These improvements make `detect_enhanced.py` not only a detection tool but also a comprehensive analytical resource for understanding spatial relationships in the Bocco Ball game.
