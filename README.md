@@ -3,7 +3,7 @@
 YOLOv5-based object detection system for the Bocco Ball game, designed to identify and classify various game elements such as colored balls and field lines with high precision and efficiency.
 
 <p align="center">
-  <img src="figs/boccoball_yolov5.jpg" alt="boccoball yolov5" width="400" />
+  <img src="figs/boccoball_yolov5.jpg" alt="boccoball yolov5" width="540" />
 </p>
 
 
